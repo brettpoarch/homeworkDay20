@@ -1,0 +1,169 @@
+html {box-sizing:border-box;},
+
+*, *:before, *:after {box-sizing:inherit}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+li{
+	list-style-type:none;
+}
+
+.headerContainer {
+	display: flex;
+	height: 50px;
+	background: black;
+	color: lightgrey;
+	padding-left:150px;
+	line-height: 50px;
+}
+
+.headerInput{
+	height: 28px;
+	width: 300px;
+	background: #444;
+	color: grey;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+}
+
+.headerImg{
+	margin-top: 10px;
+}
+
+.headerMid{
+	display: flex;
+	margin-left: 20px;
+}
+
+.headerMid div{
+	padding-left: 20px;
+}
+.headerRight{
+	display: flex;
+	margin-left: 320px;
+}
+
+.headerRight div{
+	padding-right: 25px;
+}
+img {
+	border-radius: 5px;
+}
+
+.leftContainer{
+	margin-top: 20px;
+	width: 200px;
+	padding-left: 100px;
+}
+
+.loginInfo{
+	margin-top: 20px;
+	border-bottom: 1px solid rgb(225,238,222);
+}
+.name{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.login{
+	font-size: 20px;
+	color: #666;
+}
+.bio{
+	color: rgb(3,102,214);
+	font-size: 15px;
+	margin: 20px 0;
+}
+
+.location{
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.linkContainer{
+	margin-left: 300px;
+	margin-top: -365px;
+	margin-right: 200px;
+}
+
+.mainLinks{
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 35px;
+	border-bottom: 1px solid rgb(225,238,222);
+	padding-bottom: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(3,102,214);
+}
+
+.mainInput{
+	height: 30px;
+	width: 400px;
+	border-radius: 5px;
+	border: 1px solid lightgrey;
+}
+
+.mainSearch{
+	display: flex;
+	border-bottom: 1px solid rgb(225,238,222);
+	margin-top: 15px;
+	margin-left: 40px;
+	padding-bottom: 20px;
+}
+
+.mainTop{
+	display: flex;
+	margin-left: 15px;
+	border-bottom: 1px solid rgb(225,238,222);
+	margin-top: 5px;
+	margin-left: 40px;
+	padding-bottom: 20px;
+
+}
+
+.mainTop div{
+	padding-left: 40px;
+	font-size: 14px;
+}
+
+.mainLang{
+	font-size: 11px;
+	font-weight: normal;
+	color: grey;
+	padding-top: 25px;
+}
+
+button{
+	height: 35px;
+	border-radius: 5px;
+	border:1px solid lightgrey;
+	background-color: rgb(247, 249, 250);
+	font-size: 15px;
+	margin-left: 5px;
+	padding: 0 10px;
+}
+
+.mainButton{
+	margin-left: 25px;
+}
+
+.buttonNew{
+	margin-left:40px;
+	background-color: rgb(41,172, 71);
+	color: white;
+	border-bottom: 1px solid rgb(225,238,222);
+	font-weight: bold;
+}
+
+
+
+
