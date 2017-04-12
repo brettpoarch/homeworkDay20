@@ -32,7 +32,7 @@ const User = React.createClass({
 })
 
 function mapStateToProps(state){
-	console.log(state.userReducer)
+	//console.log(state.userReducer)
 	return {...state.userReducer}
 }
 
