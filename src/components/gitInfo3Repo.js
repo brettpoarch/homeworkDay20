@@ -41,8 +41,8 @@ const repoInfo = React.createClass({
 })
 
 function mapStateToProps(state){
-	//console.log(state)
-	return {info: state.userReducer.info, reposNumber: state.userReducer.reposNumber, stars: state.userReducer.stars, followers: state.userReducer.followers, following: state.userReducer.following}
+	console.log(state.userReducer)
+	return {...state.userReducer}
 }
 
 export default connect(mapStateToProps)(repoInfo)

@@ -32,8 +32,8 @@ const User = React.createClass({
 })
 
 function mapStateToProps(state){
-	//console.log(state)
-	return {login: state.userReducer.login, name: state.userReducer.name, location: state.userReducer.location, avatar: state.userReducer.avatar}
+	console.log(state.userReducer)
+	return {...state.userReducer}
 }
 
 export default connect(mapStateToProps)(User)
